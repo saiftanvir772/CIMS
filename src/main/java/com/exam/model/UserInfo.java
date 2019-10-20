@@ -1,4 +1,4 @@
- package com.exam.model;
+package com.exam.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -18,9 +18,11 @@ public class UserInfo implements Serializable {
 	private long userId;
 	private String firstName;
 	private String lastName;
+	
 	@Email
 	private String email;	
 	private String role;
+	
 	@NotNull
 	@Size(min=3, max=12)
 	private String username;
@@ -89,14 +91,17 @@ public class UserInfo implements Serializable {
 	public void setUpdateDate(Date updateDate) {
 		this.updateDate = updateDate;
 	}
+	
+	
+	
 	@Override
 	public String toString() {
-		return "UserInfo [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
-				+ ", role=" + role + ", username=" + username + ", password=" + password + ", enabled=" + enabled
-				+ ", createdDate=" + createdDate + ", updateDate=" + updateDate + "]";
+		return "UserInfo [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName 
+				+ ", email=" + email + ", role=" + role + ", username=" + username + ", password=" + password
+				+ ", enabled=" + enabled + ", createdDate=" + createdDate + ", updateDate=" + updateDate + "]";
 	}
 	
-		
+	
 	
 	
 }

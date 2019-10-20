@@ -13,15 +13,10 @@ import com.exam.model.PersonalDetails;
 import com.exam.service.PersonalDetailsService;
 
 @Controller
-@RequestMapping("/personaldetails")
+@RequestMapping(value = "/personaldetails")
 public class PersonalDetailsController {
 	@Autowired
 	PersonalDetailsService personalDetailsService;
-	
-	@GetMapping("/showPersonalDetails")
-	public ModelAndView showPersonalDetails() {
-		return new ModelAndView("showPersonalDetails");
-	}
 	
 	@PostMapping(value = "/personalDetailsSave")
 	public String personalDetailsSave(HttpServletRequest req) {
@@ -48,4 +43,6 @@ public class PersonalDetailsController {
 		
 		return null;
 	}
+	
+	
 }

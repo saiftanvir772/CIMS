@@ -20,4 +20,13 @@ public class HomeController {
 	public ModelAndView getContactPage() {
 		return new ModelAndView("contactus");
 	}
+	
+	@GetMapping(value = "/registerUser")
+	public ModelAndView getRegistrationPage() {
+		return new ModelAndView("registration");
+	}
+	@GetMapping(value = "/personaldetails")
+	public ModelAndView getPersonalDetailsPage() {
+		return new ModelAndView("personaldetails");
+	}
 }

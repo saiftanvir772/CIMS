@@ -30,15 +30,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 	        </button>
-	        <a class="navbar-brand" href="index.html"><img src="../assets/images/logo.png" alt=""/></a>
+	        <a class="navbar-brand" href="/"><img src="../assets/images/logo.png" alt=""/></a>
 	    </div>
 	    <!--/.navbar-header-->
 	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
 	        <ul class="nav navbar-nav">
 		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jobs<b class="caret"></b></a>
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume<b class="caret"></b></a>
 		            <ul class="dropdown-menu">
-			            <li><a href="location.html">Contract Jobs</a></li>
+			            <li><a href="/personaldetails
+			            ">Personal Details</a></li>
 			            <li><a href="location.html">Walkin Jobs</a></li>
 			            <li><a href="location.html">Jobs by Location</a></li>
 			            <li><a href="location.html">Jobs by Function</a></li>
@@ -46,46 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			            <li><a href="location.html">Jobs by Company</a></li>
 		            </ul>
 		        </li>
-		        <li class="dropdown">
-		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
-		            <ul class="dropdown-menu multi-column columns-3">
-			            <div class="row">
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-			            </div>
-		            </ul>
-		        </li>
+		        
 		        <li class="dropdown">
 		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruiters<b class="caret"></b></a>
 		             <ul class="dropdown-menu">
@@ -111,7 +73,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			            <li><a href="jobs.html">Defence Jobs</a></li>
 		            </ul>
 		        </li>
-		        <li><a href="login.html">Login</a></li>
+		        <li><a href="/about">About Us</a></li>
+		        <li><a href="/contactus">Contact Us</a></li>
+		        <li><a href="/registerUser">Registration</a></li>
 		        <li><a href="resume.html">Upload Resume</a></li>
 	        </ul>
 	    </div>
